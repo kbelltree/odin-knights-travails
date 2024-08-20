@@ -1,8 +1,8 @@
 class Position {
   constructor([x, y], previousCoordinates = null, depth = 0) {
-    (this.coordinates = [x, y]),
-      (this.previousCoordinates = previousCoordinates),
-      (this.depth = depth);
+    this.coordinates = [x, y];
+    this.previousCoordinates = previousCoordinates;
+    this.depth = depth;
   }
 }
 
